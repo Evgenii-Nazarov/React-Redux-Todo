@@ -23,7 +23,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  // userGetById: userId => dispatch(userGetById(userId)),
+  userGetById: userId => dispatch(userGetById(userId)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(TodoLIst);
