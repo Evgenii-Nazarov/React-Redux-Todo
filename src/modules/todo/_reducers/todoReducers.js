@@ -12,6 +12,11 @@ const todo = (state = initialState, action) => {
         ...state,
       };
 
+      case 'TODO_ADD':
+      return {
+        ...state,
+      };
+
     default:
       return state;
   }
